@@ -1,0 +1,44 @@
+.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_container_header{
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 1rem
+}
+
+.form_container form{
+    display: flex;
+    height: 100%;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.nameInput, .emailInput{
+    width: 40vw;
+    height: 5vh;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.4);
+    text-indent: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    background: #444;
+    outline:none;
+    border: none;
+    width: 100px;
+    height:35px;
+    color: #fff;
+    margin-top:1rem ; 
+    cursor:pointer;
+}
